@@ -21,5 +21,5 @@ app.use('/api/buscar', require('./routes/busquedasRoute'));
 app.use('/api/upload', require('./routes/uploadsRoute'));
 
 app.listen(process.env.PORT, () => {
-    console.log('Practica IngWEB - Servidor corriendo en el puerto ' + process.env.PORT);
+    console.log('Practica IngWEB - Servidor corriendo en puerto ' + process.env.PORT);
 })
