@@ -9,6 +9,7 @@ app.use(cors());
 
 app.use(express.json());
 
+//db conection
 dbconection();
 
 app.use('/api/usuarios', require('./routes/usuariosRoute'));
